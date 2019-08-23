@@ -1,0 +1,34 @@
+Module: -
+	The idea behind module is quite simple; it’s a standalone piece of code that can be used in other places.
+	The advantage of defining a module is reusability.
+###################################################################################################
+What is a Hook Method?
+	Hook methods provide a way to extend behavior of programs at runtime.
+
+
+Hook Methods:-
+	1.included
+	2.extended
+	3.prepended
+	4.inherited
+
+
+##################################################################################################
+1. Included:-
+	Ruby provides us a way to write modular code using modules (called mixins in other 		languages) which can be later used in other modules/classes.
+
+	What include does is it makes methods defined in the underlying module available on 		instances of a class.
+
+#################################################################################################
+2. extended: -
+	      Ruby also allows developers to extend a module, which is a bit different then 		include.Instead of applying methods defined in module to instances of a class, extend 		applies methods to the class itself. 
+
+################################################################################################
+
+3. Prepended: -
+		prepend is quite different as it overrides methods defined in our module/class 		with methods defined in the prepending module.
+
+################################################################################################
+
+4. inherited: -
+		Inheritance is one the most important concepts in object-oriented programming. 		Ruby is an object-oriented language and provides the ability to inherit a child class from 		some base/parent class. 
